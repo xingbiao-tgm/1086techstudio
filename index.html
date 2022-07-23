@@ -6,9 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>1086科技工作室官网</title>
+    <link rel="stylesheet" type="text/css" href="./css/css.css">
     <style>
         a {
             text-decoration: none;
+            color: #fff;
+        }
+
+        p {
+            text-align: center
         }
 
         .h1 {
@@ -19,9 +25,9 @@
         .button {
             display: inline-block;
             border-radius: 4px;
-            background-color: gold;
+            background-color: #0070f3;
             border: none;
-            color: #FFFFFF;
+            color: #ffffff;
             text-align: center;
             font-size: 28px;
             padding: 20px;
@@ -29,6 +35,7 @@
             transition: all 0.5s;
             cursor: pointer;
             margin: 5px;
+            box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
         }
 
         .button span {
@@ -55,13 +62,137 @@
             opacity: 1;
             right: 0;
         }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            text-align: center;
+            font-family: arial;
+            display: inline-block;
+            margin: 10px;
+            transition: 0.5px;
+        }
+
+        .card button {
+            border: none;
+            background-color: #4d78cc;
+            color: white;
+            width: 80px;
+            height: 30px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .card a {
+            color: white;
+        }
+
+        .card img:hover {
+            filter: blur(5px);
+            width: 80px;
+            transition: margin-right 2s;
+        }
+
+        .container {
+            padding: 0 16px;
+            display: inline;
+            /* float: left; */
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .container::after {
+            content: "";
+            clear: both;
+            display: table;
+            display: inline;
+            /* float: left; */
+        }
+
+        .cards {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-image: linear-gradient(to bottom right, #7A88FF, #7AFFAF);
+            color: #fff;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            height: 450px;
+        }
+
+        .header .h1 {
+            font-weight: bold;
+        }
+
+        .msg {
+            /* background-color: #fafafa;
+            border-top: solid #eaeaea; */
+            border-bottom: solid #eaeaea;
+            padding: 30px;
+            margin-top: 30px;
+            text-align: center;
+        }
     </style>
 </head>
 
-<body>
-    <div align="center" class="h1">欢迎来到1086科技工作室官网！</div></br></br></br>
+<body bgcolor="aliceblue">
+    <div class="header">
+        <div align="center" class="h1">欢迎来到1086科技工作室官网！</div></br></br></br>
+        <div align="center"><button class="button" style="vertical-align:middle"><span><a
+                        href="https://shequ.codemao.cn/work_shop/7379">加入我们</a></span></button>
+        </div>
+    </div>
+    <div class="msg">
+        <p style="font-size:25px;">欢迎优秀的你加入1086科技工作室！这里有一群热爱学习的伙伴，与你一起学习，一起成长，一起进步，更有海量的学习资源与你分享！</p>
+        </br></br></br></br>
+    </div>
+    <div class="msg">
+        <h1>工作室历程</h1>
+        <p style="font-size:25px;">2021/6/5：1086科技工作室成立</p>
+        <p style="font-size:25px;">2022/5/18：工作室群正式成立，工作室开始实行管理制度</p>
+        <p style="font-size:25px;">2022，未来可期……</p>
+    </div></br></br></br></br>
+    <h1 align="center">工作室核心成员</h1>
+    <div class="cards">
+        <div class="card">
+            <img src="https://cdn-community.codemao.cn/47/community/d2ViXzEwMDFfMTM4Njk5OTBfMTM4Njk5OTBfMTY1NjU3OTc5NjkzMV8wN2I0MWY1YQ.png"
+                alt="86" style="width:100%">
+            <div class="container">
+                <h1>1086爱编程</h1>
+                <p class="title">工作室室长</p>
+                <p>1086科技永远欢迎你！</p>
+                <p><button><a href="https://shequ.codemao.cn/user/13869990" class="home">个人主页</a></button></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://cdn-community.codemao.cn/community_frontend/community_default_avatar/avatar_300x300_08.jpg"
+                alt="86" style="width:100%">
+            <div class="container">
+                <h1>广安awa</h1>
+                <p class="title">工作室副室长</p>
+                <p>hi</p>
+                <p><button><a href="https://shequ.codemao.cn/user/1964079161" class="home">个人主页</a></button></p>
+            </div>
+        </div>
+    </div></br></br></br></br>
     <div align="center"><button class="button" style="vertical-align:middle"><span><a
-                    href="https://shequ.codemao.cn/work_shop/7379">加入我们</a></span></button></div>
+                    href="https://shequ.codemao.cn/work_shop/7379">立刻加入</a></span></button></br></br></br></br>
+        <div class="msg"></div>
+        <div class="msg">
+            <h1>特别鸣谢</h1>
+            <p>MathCalculus</p>
+        </div></br></br></br></br>
+        <p>🔔2022 1086 Tech Studio🔔</p>
+    </div>
 </body>
 
 </html>
